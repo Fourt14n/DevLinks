@@ -1,6 +1,14 @@
+/* Global rules -- Regras globais*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    background-color: black;
 }
+
+/* Image style -- Estilização da imagem */
+#presentation img{
+    border-radius: 50%;
+}
+
