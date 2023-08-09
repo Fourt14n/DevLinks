@@ -16,5 +16,18 @@
 /* Image style -- Estilização da imagem */
 #presentation img{
     border-radius: 50%;
+    width: 106px;
 }
 
+/* Top styling -- Estilo da parte superior */
+#presentation span{
+    display: block;
+}
+
+#presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
