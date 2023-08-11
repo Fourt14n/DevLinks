@@ -13,6 +13,14 @@
     font-weight: 400;
 }
 
+/* Styling the content box -- Estilizando a caixa do conteúdo */
+main#content_box{
+    margin: 0 auto;
+    border: 1px solid white;
+    width: 90vw;
+    height: 100vh;
+}
+
 /* Image style -- Estilização da imagem */
 #presentation img{
     border-radius: 50%;
@@ -25,9 +33,21 @@
 }
 
 #presentation{
+    padding-top: 14vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* Styling the links -- Estilizando os links da página */
+#links_area div{
     border: 1px solid white;
+    display: block;
+    width: 80vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 0.3rem;
 }
