@@ -11,13 +11,14 @@
     background-color: black;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+    color: white;
 }
 
 /* Styling the content box -- Estilizando a caixa do conteúdo */
 main#content_box{
     margin: 0 auto;
     border: 1px solid white;
-    width: 90vw;
+    width: 88vw;
     height: 100vh;
 }
 
@@ -25,11 +26,20 @@ main#content_box{
 #presentation img{
     border-radius: 50%;
     width: 106px;
+    border: 1px solid rgba(255, 255, 255, 0.64);
+}
+
+#presentation img:hover{
+    outline: 1px solid white;
 }
 
 /* Top styling -- Estilo da parte superior */
 #presentation span{
     display: block;
+}
+
+span #social_link{
+    
 }
 
 #presentation{
@@ -38,6 +48,7 @@ main#content_box{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 12px;
 }
 
 /* Styling the links -- Estilizando os links da página */
@@ -47,7 +58,7 @@ main#content_box{
     width: 80vw;
     text-align: center;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 25px;
     padding: 15px;
     border-radius: 0.3rem;
 }
