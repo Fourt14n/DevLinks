@@ -16,9 +16,10 @@
 
 /* Styling the content box -- Estilizando a caixa do conteúdo */
 main#content_box{
-    margin: 0 auto;
-    border: 1px solid white;
-    width: 88vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 
@@ -26,11 +27,10 @@ main#content_box{
 #presentation img{
     border-radius: 50%;
     width: 100px;
-    border: 1px solid rgba(255, 255, 255, 0.64);
 }
 
 #presentation img:hover{
-    outline: 1px solid white;
+    outline: 0.1rem solid white;
 }
 
 /* Top styling -- Estilo da parte superior */
@@ -39,12 +39,12 @@ main#content_box{
 }
 
 #presentation{
-    padding-top: 14vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 12px;
+    padding: 1vh;
 }
 
 /* Styling the links -- Estilizando os links da página */
@@ -53,7 +53,6 @@ ul{
 }
 
 #links_area ul li a{
-    border: 1px solid white;
     display: block;
     width: 80vw;
     text-align: center;
@@ -64,4 +63,20 @@ ul{
     background-color: rgba(255, 255, 255, 0.152);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
+}
+
+/* Styling the logo links -- Estilizando os links de logo */
+#footer_box{
+
+    display: block;
+    margin: 0 auto;
+    width: 55vw;
+    padding: 10px;
+    padding-top: 3vh;
+    max-width: 16rem;
+}
+footer#logo_links{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
 }
