@@ -13,8 +13,10 @@
     color: white;
 }
 
+/* Styling the background -- Estilizando o fundo */
+
 body{
-    background-image: url(/assets/background-dark.png);
+    background-image: url(./assets/background-dark.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
