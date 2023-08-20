@@ -11,6 +11,9 @@
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     color: white;
+    transition: height 1.2s;
+    transition-delay: 0.25s;
+    transition-timing-function: ease;
 }
 
 /* Styling the background -- Estilizando o fundo */
@@ -76,11 +79,11 @@ ul{
 #links_area ul li a:hover{
     outline: 0.1rem solid white;
     background-color: rgba(255, 255, 255, 0.056);
+    transition: background 0.3s;
 }
 
 /* Styling the logo links -- Estilizando os links de logo */
 #footer_box{
-
     display: block;
     margin: 0 auto;
     width: 55vw;
@@ -92,4 +95,12 @@ footer#logo_links{
     display: flex;
     justify-content: space-around;
     align-self: center;
+}
+.logos_image{
+    padding: 0.7rem;
+    border-radius: 50%;
+}
+.logos_image:hover{
+    background-color: rgba(255, 255, 255, 0.056);
+    transition: background 0.3s;
 }
