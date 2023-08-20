@@ -158,7 +158,7 @@ footer#logo_links{
     --switch_background_color: rgba(255, 255, 255, 0.071);
 }
 
-#light_mode{
+.light_mode{
     --text_color: black;
     --background: url(./assets/background-light.png);
     --outline_color: black;
@@ -170,6 +170,6 @@ footer#logo_links{
     --switch_button_background_color: white;
     --switch_background_color: rgba(0, 0, 0, 0.086);
 }
-#light_mode button{
+.light_mode button{
     right: 0;
 } 
