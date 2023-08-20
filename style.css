@@ -10,16 +10,16 @@
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    color: white;
     transition: height 1.2s;
     transition-delay: 0.25s;
     transition-timing-function: ease;
+    color: var(--text_color_dark_mode);
 }
 
 /* Styling the background -- Estilizando o fundo */
 
 body{
-    background-image: url(./assets/background-dark.png);
+    background-image: var(--background_dark_mode);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -40,7 +40,7 @@ main#content_box{
 }
 
 #presentation img:hover{
-    outline: 0.1rem solid white;
+    outline: 0.1rem solid var(--outline_color_dark_mode);
 }
 
 /* Top styling -- Estilo da parte superior */
@@ -70,19 +70,23 @@ ul{
     margin-top: 25px;
     padding: 10px;
     border-radius: 0.3rem;
-    background-color: rgba(255, 255, 255, 0.071);
+    background-color: var(--background_links_dark_mode);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
-    outline: 0.03rem solid white;
+    outline: 0.03rem solid var(--outline_color_dark_mode);
 }
 
 #links_area ul li a:hover{
-    outline: 0.1rem solid white;
-    background-color: rgba(255, 255, 255, 0.056);
+    outline: 0.1rem solid var(--outline_color_dark_mode);
+    background-color: var(--background_hover_links_dark_mode);
     transition: background 0.3s;
 }
 
 /* Styling the logo links -- Estilizando os links de logo */
+ion-icon{
+    font-size: 26px;
+}
+
 #footer_box{
     display: block;
     margin: 0 auto;
@@ -101,6 +105,26 @@ footer#logo_links{
     border-radius: 50%;
 }
 .logos_image:hover{
-    background-color: rgba(255, 255, 255, 0.056);
+    background-color: var(--background_hover_links_dark_mode);
     transition: background 0.3s;
 }
+
+/* Styling the light mode -- Estilizando o modo claro */
+    /* First, I gonna create some variables to the colors, that I can change later -- Mas primeiro, vou criar algumas variáveis para as cores, que eu consiga trocar depois */
+
+:root{
+    --text_color_dark_mode: white;
+    --background_dark_mode: url(./assets/background-dark.png);
+    --outline_color_dark_mode: white;
+    --background_links_dark_mode: rgba(255, 255, 255, 0.071);
+    --background_hover_links_dark_mode: rgba(255, 255, 255, 0.056);
+}
+
+#light_mode{
+    --text_color_dark_mode: black;
+    --background_dark_mode: url(./assets/background-light.png);
+    --outline_color_dark_mode: black;
+    --background_links_dark_mode: rgba(0, 0, 0, 0.071);
+    --background_hover_links_dark_mode: rgba(0, 0, 0, 0.129);
+}
+        
