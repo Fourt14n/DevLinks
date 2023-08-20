@@ -8,10 +8,15 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    background-color: black;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     color: white;
+}
+
+body{
+    background-image: url(/assets/background-dark.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Styling the content box -- Estilizando a caixa do conteúdo */
@@ -60,7 +65,7 @@ ul{
     margin-top: 25px;
     padding: 10px;
     border-radius: 0.3rem;
-    background-color: rgba(255, 255, 255, 0.152);
+    background-color: rgba(255, 255, 255, 0.071);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
 }
