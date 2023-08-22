@@ -1,7 +1,7 @@
 <h1 align="center"> DevLinks </h1>
 
 <p align="center">
-Projeto de agregador de links, iniciativa de <a href="https://www.rocketseat.com.br">Rocketseat</a> <br/>
+Projeto de agregador de links, iniciativa de <a target="_blank" href="https://www.rocketseat.com.br">Rocketseat</a> <br/>
 <a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Participe também!</a>
 </p>
 
