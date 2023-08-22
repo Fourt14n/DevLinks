@@ -1,7 +1,7 @@
 <h1 align="center"> DevLinks </h1>
 
 <p align="center">
-Projeto de agregador de links, iniciativa de <a href="rocketseat.com.br">Rocketseat</a> <br/>
+Projeto de agregador de links, iniciativa de <a href="https://www.rocketseat.com.br">Rocketseat</a> <br/>
 <a href="./assets/devlinks_cover.png">Participe também!</a>
 </p>
 
