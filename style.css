@@ -57,7 +57,7 @@ main#content_box{
 /* Styling the switch button -- Estilizando o botão de switch */
 #switch_box{
     position: relative;
-    
+    margin: 1.3rem 0rem 0.4rem 0rem;
 }
 
 #switch_box button{
